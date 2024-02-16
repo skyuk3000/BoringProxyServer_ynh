@@ -1,0 +1,15 @@
+{
+  "admin_domain": "__Domain__",
+  "tokens": {
+    "": {
+      "owner": "admin"
+    }
+  },
+  "tunnels": {},
+  "users": {
+    "admin": {
+      "is_admin": true,
+      "clients": {}
+    }
+  }
+}
