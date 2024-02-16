@@ -2,7 +2,7 @@
 
 packaging_format = 2
 
-id = "BoringProxyServer"
+id = "boringproxy"
 name = "Boring Proxy Server"
 description.en = "boringproxy is a combination of a reverse proxy and a tunnel manager."
 description.fr = "ennuyeuxproxy est une combinaison d'un proxy inverse et d'un gestionnaire de tunnel."
@@ -38,7 +38,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/BoringProxyServer"
+    default = "/"
 
     [install.init_main_permission]
     type = "group"
