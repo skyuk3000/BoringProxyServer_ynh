@@ -5,7 +5,7 @@
       "owner": "admin"
     }
   },
-  "tunnels": {},
+  "tunnels": {__key__},
   "users": {
     "admin": {
       "is_admin": true,
