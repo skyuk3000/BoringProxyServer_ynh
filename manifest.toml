@@ -59,6 +59,7 @@ ram.runtime = "50M"
         armhf.sha256 = "unknown"
         i386.url = "https://github.com/boringproxy/boringproxy/releases/download/v0.10.0/boringproxy-linux-386"
         i386.sha256 = "unknown"
+        rename = "boringproxy"
 
         # https://yunohost.org/fr/packaging_apps_resources#regarding-autoupdate
         autoupdate.strategy = "latest_github_release"
