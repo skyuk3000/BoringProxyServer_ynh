@@ -7,8 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/boringproxy server \
-	-admin-domain __DOMAIN__ -http-port __PORT_HTTP__ -https-port __PORT__ -behind-proxy
+ExecStart=__INSTALL_DIR__/boringproxy server -admin-domain __DOMAIN__ -http-port __PORT_HTTP__ -https-port __PORT__ -behind-proxy
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 
