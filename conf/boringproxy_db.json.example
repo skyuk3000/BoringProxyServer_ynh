@@ -1,11 +1,11 @@
 {
   "admin_domain": "__Domain__",
   "tokens": {
-    "": {
+    "__KEY__": {
       "owner": "admin"
     }
   },
-  "tunnels": {__key__},
+  "tunnels": {},
   "users": {
     "admin": {
       "is_admin": true,
