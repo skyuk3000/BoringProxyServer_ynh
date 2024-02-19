@@ -32,7 +32,7 @@ What that means is if you have a self-hosted web service (Nextcloud, Emby, Jelly
 
 ## Screenshots
 
-![Screenshot of Example app](./doc/screenshots/example.jpg)
+![Screenshot of Example app](./doc/screenshots/example.png)
 
 ## Documentation and resources
 
