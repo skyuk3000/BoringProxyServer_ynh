@@ -85,13 +85,10 @@ ram.runtime = "50M"
     tunnels.auth_header = false
     tunnels.allowed = ["visitors", "all_users"]
 
-   
-
-
     [resources.ports]
     # This will pick a random port for reverse-proxying and store it as the $port setting
-    Main.default = 9443
+    Main.default = 443
     main.exposed = "TCP"
-    http.default = 9980
+    http.default = 80
     http.exposed = "TCP"
 
